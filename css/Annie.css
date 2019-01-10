@@ -299,7 +299,9 @@ header .h-footer ul li {
 	padding: 0.2em;
 	margin: auto 30px;
 }
-
+header .h-footer ul li:last-child{
+	display: none;
+}
 header .h-footer ul li a {
 	display: inline-block;
 	cursor: pointer;
